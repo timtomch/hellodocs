@@ -1,17 +1,20 @@
-# Welcome to MkDocs
+# Hello World
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Just trying to wrap my head around how to use [readthedocs.org](Read the Docs) for a personal project.
 
-## Commands
+It isn't as entirely straightforward as one thinks.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
 
-## Project layout
+## Steps
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+1. `brew install mkdocs`
+1. `mkdocs new .` inside a git repository - this will create a `docs/` folder, as well as a `mkdocs.yml` config file that, confusingly, projects using readthedocs don't seem to have on their root directory...
+1. Link readthedocs account with that repository (needs to be public).
+1. Switch the readthedocs renderer from Sphinx (default) to Mkdocs.
+
+## Issues to be resolved
+
+* What is best, Sphinx or MkDocs? The latter looks to be simpler.
+ 
+
+
